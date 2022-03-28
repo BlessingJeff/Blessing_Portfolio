@@ -264,40 +264,40 @@ const bigProjects = {
 // Achievement Section
 // Include certificates, talks etc
 
-const achievementSection = {
-  title: ("Social Media"),
+// const achievementSection = {
+//   title: ("Social Media"),
   // subtitle:
   //   "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
-  achievementsCards: [
-    {
-      title: "Github",
+  // achievementsCards: [
+  //   {
+  //     title: "Github",
       // subtitle:
       //   "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/github.png"),
-      footerLink: [
-        {
-          name: "Enter",
-          url: "https://github.com/BlessingJeff"
-        },
+    //   image: require("./assets/images/github.png"),
+    //   footerLink: [
+    //     {
+    //       name: "Enter",
+    //       url: "https://github.com/BlessingJeff"
+    //     },
         
-      ]
-    },
-    {
-      title: "LinkedIn",
+    //   ]
+    // },
+    // {
+    //   title: "LinkedIn",
       // subtitle:
       //   "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/linkedin.png" ),
-      footerLink: [
-        {
-          name: "Enter",
-          url: "https://www.linkedin.com/in/blessingjeff/"
-        }
-      ]
-    },
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+  //     image: require("./assets/images/linkedin.png" ),
+  //     footerLink: [
+  //       {
+  //         name: "Enter",
+  //         url: "https://www.linkedin.com/in/blessingjeff/"
+  //       }
+  //     ]
+  //   },
+  // ],
+  // display: true // Set false to hide this section, defaults to true
+// };
 
 
 // Blogs Section
@@ -395,10 +395,10 @@ const socialMediaLinks = {
 
 // Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
+// const twitterDetails = {
+//   userName: "twitter", //Replace "twitter" with your twitter username without @
+//   display: true // Set true to display this section, defaults to false
+// };
 
 export {
   illustration,
@@ -411,10 +411,10 @@ export {
   workExperiences,
   openSource,
   bigProjects,
-  achievementSection,
+  // achievementSection,
   // blogSection,
   // talkSection,
   // podcastSection,
   contactInfo,
-  twitterDetails
+  // twitterDetails
 };
