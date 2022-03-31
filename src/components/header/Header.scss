@@ -1,11 +1,8 @@
 @import "../../_globalColor";
 
-/*React-headroom*/
 .headroom-wrapper {
   max-height: 100px;
 }
-
-/* header */
 
 .dark-menu {
   background-color: $darkBackground !important;
@@ -68,7 +65,7 @@
   padding: 0 10px;
 }
 
-/* menu */
+
 
 .header .menu {
   clear: both;
@@ -76,12 +73,11 @@
   transition: max-height 0.2s ease-out;
 }
 
-/* menu icon */
 
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
+  // float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
@@ -130,7 +126,6 @@
   top: -5px;
 }
 
-/* menu btn */
 
 .header .menu-btn {
   display: none;
@@ -156,8 +151,6 @@
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
-
-/* 48em = 768px */
 
 @media (min-width: 48em) {
   .header li {

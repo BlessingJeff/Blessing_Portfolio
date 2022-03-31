@@ -68,7 +68,7 @@
   background-color: $instagram;
 }
 
-/* Hover Transition */
+
 .twitter i:hover,
 .google i:hover,
 .gitlab i:hover,
@@ -82,7 +82,6 @@
   background-color: $textColor;
 }
 
-/* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
     text-align: center;

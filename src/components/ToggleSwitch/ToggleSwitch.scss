@@ -7,7 +7,6 @@
   height: 26px;
 }
 
-/* Fix visible slider checkbox */
 input {
   transform: scale(0.5);
 }
@@ -50,7 +49,6 @@ input:checked + .slider::before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
   border-radius: 34px;
 }
