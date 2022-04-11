@@ -191,6 +191,42 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/journals.png"),
+      projectName: "Journals-DailyLife",
+      footerLink: [
+        {
+          name: "Watch Live",
+          url: "https://journals-dailylife.netlify.app/"
+        },
+        {
+          name: "Front-end",
+          url: "https://github.com/BlessingJeff/Journals-React.git" 
+        },
+        {
+        name: "Back-end",
+        url: "https://github.com/BlessingJeff/Journals-NodeJS.git"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/tour.png"),
+      projectName: "Touropedia",
+      footerLink: [
+        {
+          name: "Watch Live",
+          url: "https://touropedias.netlify.app/"
+        },
+        {
+          name: "Front-end",
+          url: "https://github.com/BlessingJeff/Touropedia-Client"
+        },
+        {
+        name: "Back-end",
+        url: "https://github.com/BlessingJeff/Touropedia-Server"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/dictionary.png"),
       projectName: "Dictionary Application",
       footerLink: [
