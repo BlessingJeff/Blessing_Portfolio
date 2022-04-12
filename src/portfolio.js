@@ -178,7 +178,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Watch Live",
-          url: "https://admiring-hawking-06f45e.netlify.app/"
+          url: "https://chatapplication-snappy.netlify.app/"
         },
         {
           name: "Front-end",
