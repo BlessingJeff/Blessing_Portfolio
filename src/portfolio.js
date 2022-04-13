@@ -15,9 +15,9 @@ const illustration = {
 
 const greeting = {
   username: "Blessing",
-  title: "Hi, I'm Blessing",
+  title: "Hello, I'm Blessing.",
   subTitle:emoji (
-    "A passionate Full Stack Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / MongoDB."
+    "A passionate full stack developer 🚀 with experience building web applications with JavaScript/ Reactjs/ Nodejs/ MongoDB and other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/17fh4VVVuAllGCGri6ItmMrtH9-N96DGi/view?usp=sharing", 
@@ -138,38 +138,23 @@ const bigProjects = {
   subtitle: "",
   projects: [
     {
-      image: require("./assets/images/calculator.png"),
-      projectName: "Calculator Application",
+      image: require("./assets/images/blog.png"),
+      projectName: "Blog Application",
      
       footerLink: [
         {
           name: "Watch Live",
           
-          url: "https://clever-heyrovsky-813552.netlify.app/"
+          url: "https://blognewblogger.herokuapp.com/"
         },
         {
           name: "Front-end",
-          url: "https://github.com/BlessingJeff/ZenDay19ACalculator"
-          
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/moneymanager.png"),
-      projectName: "Money Manager Application",
-      footerLink: [
-        {
-          name: "Watch Live",
-          url: "https://romantic-booth-0e4c4d.netlify.app/"
-        },
-        {
-          name: "Front-end",
-          url: "https://github.com/BlessingJeff/money-manager-frontend"
-        },
-        {
-        name: "Back-end",
-        url: "https://github.com/BlessingJeff/money-manager-backend"
-        }
+          url: "https://github.com/BlessingJeff/Blog-Application-Client.git"
+          },
+          {
+            name: "Back-end",
+            url: "https://github.com/BlessingJeff/Blog-Application-Server.git"
+            }
       ]
     },
     {
@@ -223,6 +208,42 @@ const bigProjects = {
         {
         name: "Back-end",
         url: "https://github.com/BlessingJeff/Touropedia-Server"
+        }
+      ]
+    },
+   
+    {
+      image: require("./assets/images/moneymanager.png"),
+      projectName: "Money Manager Application",
+      footerLink: [
+        {
+          name: "Watch Live",
+          url: "https://romantic-booth-0e4c4d.netlify.app/"
+        },
+        {
+          name: "Front-end",
+          url: "https://github.com/BlessingJeff/money-manager-frontend"
+        },
+        {
+        name: "Back-end",
+        url: "https://github.com/BlessingJeff/money-manager-backend"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/calculator.png"),
+      projectName: "Calculator Application",
+     
+      footerLink: [
+        {
+          name: "Watch Live",
+          
+          url: "https://clever-heyrovsky-813552.netlify.app/"
+        },
+        {
+          name: "Front-end",
+          url: "https://github.com/BlessingJeff/ZenDay19ACalculator"
+          
         }
       ]
     },
