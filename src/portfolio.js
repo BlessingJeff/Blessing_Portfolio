@@ -20,7 +20,7 @@ const greeting = {
     "A passionate full stack developer 🚀 with experience building web applications with JavaScript/ Reactjs/ Nodejs/ MongoDB and other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/17fh4VVVuAllGCGri6ItmMrtH9-N96DGi/view?usp=sharing", 
+    "https://drive.google.com/file/d/1pqvwq3eahqtkd34DGAPRCrN13Hjipp2B/view?usp=sharing", 
   displayGreeting: true 
 };
 
